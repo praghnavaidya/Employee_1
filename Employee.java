@@ -6,12 +6,13 @@ public class Employee {
     public Employee(String name, int id, double salary, String department) {
         this.name = name;
         this.id = id;
-        this.salary = salary;
+        this.salary = salary;s
         this.department = department;
     }
     public void dispay() {
         
         System.out.println("Details");
+        System.out.println("Employee details of thr company");
         System.out.println("Employee Name: " + name);
         System.out.println("Employee ID: " + id);
         System.out.println("Salary: " + salary);
