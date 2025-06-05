@@ -6,10 +6,10 @@ public class Employee {
     public Employee(String name, int id, double salary, String department) {
         this.name = name;
         this.id = id;
-        this.salary = salary;s
+        this.salary = salary;
         this.department = department;
     }
-    public void dispay() {
+    public void dislpay() {
         
         System.out.println("Details");
         System.out.println("Employee details of thr company");
@@ -20,7 +20,7 @@ public class Employee {
     }
     public static void main(String[] args) {
         Employee emp = new Employee("John Doe", 12345, 50000.0, "Engineering");
-        emp.dispay();
+        emp.display();
     }
 }
 
